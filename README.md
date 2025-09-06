@@ -7,15 +7,13 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 
 ## Stack
 - Tailwind CDN  
-- Alpine.js
 - Vanilla JS (zero deps)  
-- Free unsplash / pravatar / imgur assets
+- Free unsplash / pravatar / jsdelivr assets
 
-## Features
-- AI Funnel Audit
-- No-Code A/B Engine
-- Hyper-Personalized Copy
-- Calendly Integration
+## Live widgets
+- BTC price (30 s poll)  
+- Fake visitor counter (5 s jitter)  
+- Social proof pop-ups (45 s poll)
 
 ## Deploy your own
 1. Fork repo  
@@ -25,6 +23,9 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 ## Customise
 - Edit `index.html` copy  
 - Swap images in hero / testimonials
+- Change Tally form URL in `index.html` and `assets/js/copy.js`
+- Change Calendly URL in `index.html`
+- Change Loom demo URL in `index.html`
 
 ## License
 MIT – do what you want, just don’t resell as template.
