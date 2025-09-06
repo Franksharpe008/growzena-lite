@@ -20,6 +20,7 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 - `pages/pricing.html`: Detailed pricing page with FAQ
 - `pages/demo.html`: Live demo embed and Calendly booking
 - `pages/thank-you.html`: Post-signup page with referral hook and social share
+- `pages/blog/growth-playbook.html`: Blog post page
 
 ## Deploy your own
 1. Fork repo  
