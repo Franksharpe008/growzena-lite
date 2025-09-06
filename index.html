@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <title>Growzena – AI Growth Automations That Print Revenue</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Turn traffic into ARR on autopilot. No-code AI playbooks trusted by 1 200+ SaaS teams. Free 14-day trial, no card.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d1469c98?auto=format&fit=crop&w=1200&q=80">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script defer src="assets/js/live.js"></script>
+  <script defer src="assets/js/copy.js"></script>
+</head>
+<body class="bg-[#0b0c10] text-gray-100">
+  <!-- NAV -->
+  <nav class="fixed top-0 w-full bg-[#0b0c10]/80 backdrop-blur z-20 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold gradient-text">Growzena</a>
+      <a href="#cta" class="px-5 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition text-white font-semibold">Start free</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="relative pt-32 pb-20 px-6 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1555066931-4365d1469c98?auto=format&fit=crop&w=1920&q=80" class="absolute inset-0 w-full h-full object-cover opacity-10" alt="">
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
+        AI growth automations that <span class="gradient-text">print revenue</span> while you sleep.
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+        Connect your data, pick a playbook, and watch Growzena identify leaks, run experiments, and push winning variants to 100 %—all without a single meeting.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <button onclick="copyCTA()" class="px-8 py-4 rounded-full bg-orange-500 hover:bg-orange-600 transition text-white font-semibold shadow-lg">Start 14-day free trial</button>
+      </div>
+      <!-- LIVE TICKER -->
+      <div class="mt-6 flex items-center justify-center gap-4 text-sm text-gray-400">
+        <span>🟢 BTC: <strong id="btc-price">…</strong></span>
+        <span>👥 Served: <strong id="served">12 472</strong> growth hackers</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="bg-[#111217] py-6">
+    <div class="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-center gap-6 text-gray-400">
+      <span class="text-sm">Trusted by</span>
+      <img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos@main/logos/stripe.svg" class="h-6" alt="Stripe">
+      <img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos@main/logos/notion.svg" class="h-6" alt="Notion">
+      <img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos@main/logos/vercel.svg" class="h-6" alt="Vercel">
+      <span class="text-sm text-green-400 font-semibold">+1 200 SaaS teams</span>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold">See the AI playbook in action</h2>
+      <div class="mt-10 rounded-2xl overflow-hidden shadow-2xl">
+        <img src="https://media.giphy.com/media/xT0xezQGU5xCDJuCPe/giphy.gif" class="w-full" alt="demo">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="py-20 px-6 bg-[#111217]">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-center">1 200+ teams can't be wrong</h2>
+      <div class="mt-12 grid md:grid-cols-2 gap-8">
+        <blockquote class="p-6 rounded-2xl bg-gray-900 border border-gray-800">
+          <p class="text-gray-200">“We ripped out Optimizely + HubSpot workflows and plugged Growzena in on a Thursday. By Monday our activation rate jumped 28 %.”</p>
+          <div class="mt-4 flex items-center gap-3">
+            <img src="https://i.pravatar.cc/150?img=1" class="w-10 h-10 rounded-full" alt="">
+            <div>
+              <div class="font-semibold">Diana Core</div>
+              <div class="text-sm text-gray-400">Co-founder, LogiFlow</div>
+            </div>
+          </div>
+        </blockquote>
+        <blockquote class="p-6 rounded-2xl bg-gray-900 border border-gray-800">
+          <p class="text-gray-200">“The AI copy suggestions feel like hiring a $200k growth copywriter—except it's instant and keeps learning.”</p>
+          <div class="mt-4 flex items-center gap-3">
+            <img src="https://i.pravatar.cc/150?img=2" class="w-10 h-10 rounded-full" alt="">
+            <div>
+              <div class="font-semibold">Raj Patel</div>
+              <div class="text-sm text-gray-400">CMO, DataBolt</div>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="cta" class="py-24 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-extrabold">Ready to grow on autopilot?</h2>
+      <p class="mt-4 text-lg text-gray-300">Join 1 200+ SaaS teams and add your first AI playbook in less than 6 minutes.</p>
+      <div class="mt-10">
+        <button onclick="copyCTA()" class="px-8 py-4 rounded-full bg-orange-500 hover:bg-orange-600 transition text-white font-semibold shadow-lg">Start free trial</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 px-6 border-t border-gray-800 text-center text-xs text-gray-500">
+    © 2025 Growzena, Inc. All rights reserved.
+  </footer>
+</body>
+</html>
