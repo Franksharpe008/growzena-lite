@@ -7,12 +7,15 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 
 ## Stack
 - Tailwind CDN  
+- Alpine.js
 - Vanilla JS (zero deps)  
-- Free unsplash / pravatar / jsdelivr assets
+- Free unsplash / pravatar / imgur assets
 
-## Live widgets
-- BTC price (30 s poll)  
-- Fake visitor counter (5 s jitter)  
+## Features
+- AI Funnel Audit
+- No-Code A/B Engine
+- Hyper-Personalized Copy
+- Calendly Integration
 
 ## Deploy your own
 1. Fork repo  
@@ -21,8 +24,7 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 
 ## Customise
 - Edit `index.html` copy  
-- Swap images in hero / testimonials  
-- Change BTC widget to any no-key endpoint in `live.js`
+- Swap images in hero / testimonials
 
 ## License
 MIT – do what you want, just don’t resell as template.
