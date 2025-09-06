@@ -15,6 +15,12 @@ AI growth-automation landing page – **100 % static, no API keys, free to fork 
 - Fake visitor counter (5 s jitter)  
 - Social proof pop-ups (45 s poll)
 
+## Pages
+- `index.html`: Main landing page
+- `pages/pricing.html`: Detailed pricing page with FAQ
+- `pages/demo.html`: Live demo embed and Calendly booking
+- `pages/thank-you.html`: Post-signup page with referral hook and social share
+
 ## Deploy your own
 1. Fork repo  
 2. Enable GitHub Pages (`Settings → Pages → branch: main`)  

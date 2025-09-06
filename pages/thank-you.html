@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <title>Welcome – Growzena</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Your invite is on the way. Share Growzena with a friend and jump the queue.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Simple “pixel” to count thank-you hits (no JS) -->
+  <img src="https://vercel-counter.vercel.app/counter.svg" alt="" width="1" height="1">
+</head>
+<body class="bg-[#0b0c10] text-gray-100">
+<nav class="fixed top-0 w-full bg-[#0b0c10]/80 backdrop-blur z-20 border-b border-gray-800">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="/" class="text-2xl font-bold gradient-text">Growzena</a>
+    <a href="/pages/demo.html" class="px-5 py-2 rounded-full border border-gray-700 hover:bg-gray-800 transition">Watch demo</a>
+  </div>
+</nav>
+
+<section class="pt-32 pb-20 px-6 text-center">
+  <div class="max-w-2xl mx-auto">
+    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" class="w-32 mx-auto rounded-full" alt="yay">
+    <h1 class="text-4xl font-extrabold mt-6">You’re in! 🎉</h1>
+    <p class="mt-4 text-lg text-gray-300">We just sent your invite. While you wait, share the love and jump the queue:</p>
+
+    <!-- Copy referral link -->
+    <div class="mt-8 flex gap-2 justify-center">
+      <input id="ref" class="px-4 py-2 rounded-lg bg-gray-900 border border-gray-700 text-sm w-64" value="https://growzena-lite.vercel.app/?ref=YOUR_NAME" readonly>
+      <button onclick="copyRef()" class="px-4 py-2 rounded-lg bg-orange-500 hover:bg-orange-600 transition text-white font-semibold">Copy</button>
+    </div>
+
+    <!-- Social share (zero cost) -->
+    <div class="mt-6 flex gap-3 justify-center">
+      <a href="https://twitter.com/intent/tweet?text=I just grabbed a free 14-day pass to Growzena – AI growth automations that print revenue!&url=https://growzena-lite.vercel.app" target="_blank" class="px-4 py-2 rounded-lg bg-[#1DA1F2] text-white text-sm">Tweet</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://growzena-lite.vercel.app" target="_blank" class="px-4 py-2 rounded-lg bg-[#0077B5] text-white text-sm">LinkedIn</a>
+    </div>
+
+    <!-- Next steps -->
+    <div class="mt-10 p-6 rounded-2xl bg-gray-900 border border-gray-800 text-left text-sm">
+      <strong>What happens next?</strong>
+      <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-300">
+        <li>Check your email (spam too) for the invite link.</li>
+        <li>Join our free Slack community (link inside email).</li>
+        <li>Book a 15-min onboarding call from the demo page.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="py-10 px-6 border-t border-gray-800 text-center text-xs text-gray-500">
+  © 2025 Growzena, Inc. All rights reserved.
+</footer>
+
+<script>
+  function copyRef(){
+    const ref=document.getElementById('ref');
+    ref.select();
+    document.execCommand('copy');
+    alert('Referral link copied – share it anywhere!');
+  }
+</script>
+</body>
+</html>
